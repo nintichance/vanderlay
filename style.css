@@ -1,0 +1,89 @@
+
+*{
+    color: white;
+}
+html{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+}
+body {
+    width: 980px;
+    display:flex;
+    flex-direction: column;
+}
+.industries {
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: -10px;
+    margin-left: 5px;
+
+}
+header {
+    background-color: rgba(255, 0, 0, 0.25);
+    display:flex;
+}
+ul {
+    margin-right: 20px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    height: 50%;
+    width:40%;
+}
+.heading {
+    border: 1px white solid;
+    background-color:rgba(0,0,0,.90);
+    width: 20%;
+}
+h1 {
+    color: white;
+}
+
+.subheading{
+    display:flex;
+    justify-content: flex-end;
+    width: 80%;
+    align-self: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+article {
+    display: flex;
+    justify-content: space-between;
+  
+}
+article div {
+    margin-top: 20px;
+    width: 22.5%;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 200px;
+}
+
+button {
+    height: 35px;
+    width: 85px;
+    border-radius: 5px;
+}
+#green, #red, #blue, #yellow{
+    background-color:black;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: space-between;
+    width: 100%;
+    height: 100px;;
+    background-color:rgba(255, 255, 255, 0.25);
+}
+
